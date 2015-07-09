@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Panda</title>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="app1.js"></script>
+</head>
+<body>
+Enter city name:<br>
+<input type="text" id="name"/><br /><br />
+<button type="submit" id="myButton" onclick="loaddata()">Show city parameters</button>
+<br /><br>
+
+Latitude: <input id="lat" type="text" placeholder="latitude" /><br />
+Longitude: <input id="lon" type="text" placeholder="longitude" /><br>
+
+
+
+
+
+<button type="submit" id="but" onclick="initialize()">Show map</button>
+
+
+<div id="map" style="width:500px;height:380px;"></div>
+
+
+</body>
+</html>
